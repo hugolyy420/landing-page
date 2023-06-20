@@ -5,27 +5,122 @@
 }
 
 body {
-    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-family: "roboto", "Arial", sans-serif;
 }
 
 .header {
     display: flex;
     background-color: #1f2937;
     color: white;
-    padding: 30px 250px;
     justify-content: space-between;
+    padding: 2% 10%
 }
 
 .header-logo {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 800;
+    color: #F9FAF8;
+    cursor:pointer;
 }
 
 .header-list {
     list-style-type: none;
     margin: 0;
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     gap: 25px;
     align-items: center;
+    color: #E5E7EB;
 }
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.first-section {
+    display: flex;
+    background-color: #1F2937;
+    padding: 4% 10%;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+}
+
+.first-section-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.first-section-heading {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 40px;
+}
+
+.first-section-description {
+    font-size: 20px;
+    color: #E5E7EB;
+    margin-bottom: 40px;
+}
+
+.sign-up-button {
+    background: #3882F6;
+    color: #eeeeee;
+    padding: 10px 30px;
+    border: none;
+    font-size: 24px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    background-color:rgb(219, 219, 219);
+    color: #3882F6;
+}
+
+.first-section-image {
+    flex: 1;
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 white
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 2% 4% 2%;
+    text-align: center;
+}
+
+.second-section-heading {
+    font-size: 30px;
+    font-weight: 800;
+    color: #1F2937;
+    align-self: center;
+    margin-bottom: 3%;
+}
+
+.second-section-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.info {
+    max-width: 300px;
+    font-size: 18px;
+}
+
+.info img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(181, 181, 181)
+}
+

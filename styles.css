@@ -78,8 +78,8 @@ a {
 }
 
 .sign-up-button:hover {
-    background-color:rgb(219, 219, 219);
-    color: #3882F6;
+    background-color:rgb(92, 92, 92);
+    color: #ffffff;
 }
 
 .first-section-image {
@@ -94,8 +94,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2% 2% 4% 2%;
+    padding: 0.5rem 1rem 6rem 1rem;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .second-section-heading {
@@ -103,13 +104,14 @@ a {
     font-weight: 800;
     color: #1F2937;
     align-self: center;
-    margin-bottom: 3%;
+    padding: 4rem;
 }
 
 .second-section-container {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .info {
@@ -121,6 +123,93 @@ a {
     height: 300px;
     width: 300px;
     border-radius: 10px;
-    box-shadow: 0 0 20px 0 rgb(181, 181, 181)
+    box-shadow: 0 0 20px 0 rgb(181, 181, 181);
+    margin-bottom: 10px;
 }
 
+.third-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 1%;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    height: auto;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.person {
+    font-size: 24px;
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.fourth-section {
+    display: flex;
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.blue-container {
+    display: flex;
+    background-color: #3882F6;
+    width: 1500px;
+    max-width: 70%;
+    padding: 5% 10%;
+    color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.blue-container-header {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.blue-container-text {
+    font-size: 18px;
+    margin-top: 0.5rem;
+}
+
+.sign-up-button-two {
+    background: #3882F6;
+    color: #eeeeee;
+    padding: 10px 30px;
+    border-color: white;
+    border-width: 2px;
+    font-size: 24px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.sign-up-button-two:hover {
+    background-color:rgb(255, 255, 255);
+    color: #3882F6;
+}
+
+.footer {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
